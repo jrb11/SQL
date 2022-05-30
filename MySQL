@@ -1,6 +1,9 @@
-SELECT * FROM student
-WHERE id=1
+create table test (
+eid int,
+ename varchar(50) not null,
+esalary float
+)
 
-SELECT * FROM student
-WHERE id=2 and name='abc
+
+
 
