@@ -1,0 +1,16 @@
+select * from test where esalary = (select max(esalary) from test);
+
+select * from test where esalary = (select max(esalary) from test where esalary < (select max(esalary) from test));
+
+#esal  =  select max(esalary) from test
+#select * from test where esalary = (esal where esalary < (esal))
+
+select * from test where ename like'j%'
+
+select * from test where ename like'%a%'
+
+select * from test where esalary in (18000, 21000);
+
+create table test_copy as select * from test;
+
+select * from test_copy;
