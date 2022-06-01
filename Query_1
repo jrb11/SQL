@@ -11,6 +11,8 @@ select * from test where ename like'%a%'
 
 select * from test where esalary in (18000, 21000);
 
+select * from test where esalary between 18000 and 20000;
+
 create table test_copy as select * from test;
 
 select * from test_copy;
