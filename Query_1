@@ -15,4 +15,4 @@ select * from test where esalary between 18000 and 20000;
 
 create table test_copy as select * from test;
 
-select * from test_copy;
+select * from test_copy; 
